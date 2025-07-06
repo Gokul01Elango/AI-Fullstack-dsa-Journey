@@ -1,22 +1,8 @@
-# 📅 Daily Log – July 6, 2025
-
-## ✅ DSA
-- [x] Solved: `Two Sum` (LeetCode Easy)
-  - Language: Python
-  - Concepts: Hash Map
-- [ ] Try: `Valid Parentheses`
-
-## 🧠 Python
-- Learned about FastAPI routing
-- Implemented `/chat` endpoint
-
-## 🎨 React
-- Created Chatbot UI component
-- Used `useState` and `onChange`
-
----
-
-## 🚀 Plan for Tomorrow
-- Solve 2 recursion problems
-- Connect frontend to backend
-- Add LangChain logic
+| Feature    | `list`      | `tuple`     | `set`         | `dict`        |
+| ---------- | ----------- | ----------- | ------------- | ------------- |
+| Example    | `[1, 2, 3]` | `(1, 2, 3)` | `{1, 2, 3}`   | `{"a": 1}`    |
+| Ordered    | ✅ Yes       | ✅ Yes       | ❌ No          | ✅ Yes         |
+| Indexed    | ✅ Yes       | ✅ Yes       | ❌ No          | ✅ Keys        |
+| Mutable    | ✅ Yes       | ❌ No        | ✅ Yes         | ✅ Yes         |
+| Duplicates | ✅ Allowed   | ✅ Allowed   | ❌ Not allowed | ✅ Keys unique |
+| Lookup     | By index    | By index    | By value      | By key        |

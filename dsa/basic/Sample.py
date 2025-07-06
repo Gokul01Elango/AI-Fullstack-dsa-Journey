@@ -7,3 +7,4 @@ IsEasy = True
 
 print("My Name is ",name,"I am ",age,
 "Years old",height," cm tall , and learning ",language," : ",IsEasy)
+print(type(name))
