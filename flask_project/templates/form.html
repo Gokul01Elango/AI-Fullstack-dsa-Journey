@@ -1,0 +1,23 @@
+<html>
+    <title>Flask App</title>
+    <head>
+        <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+    <body>
+            <ul>
+                {% for skill in skills%}
+                <li>{{skill}}</li>     
+            {%endfor%}       </ul>
+
+        <form action="/submit" method="POST">
+            <label>User Name: </label>
+            <input type="text" name ="username"><br><br>
+            <label>Email ID  : </label>
+            <input type="email" name="email"><br><br>
+            <label>FeedBack : </label>
+            <input type="text" name="feedback"><br><br>
+            <input type="submit" value="submit">
+
+        </form>
+    </body>
+</html>
