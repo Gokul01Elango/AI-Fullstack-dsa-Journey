@@ -67,6 +67,31 @@ def submit():
 # 4. BONUS:
 #     - Add simple fade-in animation using CSS for the message display.
 
+## Phase 4 – Practice Tasks
+
+# 1. Create `base.html` with:
+#    - Navigation bar
+#    - Shared CSS styling
+#    - Jinja2 content block
+
+# 2. Create multi-page website with:
+#    - Home page
+#    - About page
+#    - Contact page
+
+# 3. Use Jinja inheritance (`{% extends %}`) in all pages.
+
+# 4. Bonus:
+#    - Style the navigation bar (highlight current page if possible).
+#    - Add a footer to `base.html`.
+
+# 5. Super Bonus:
+#    - Create a separate page (e.g. `/projects`) and link it via navigation.
+
+@app.route('/base')
+def home():
+    return render_template('base.html')
+
 
 if __name__=='__main__':
     app.run(debug=True)
