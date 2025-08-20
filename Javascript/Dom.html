@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM </title>
+
+</head>
+
+<body>
+    <div class="value"></div>
+    <h1 id="tag1">Hello World</h1>
+    <p class="para">How is your work ? is all good ?</p>
+    <button>Send</button>
+    <p class="para"></p>
+    <h1>Day 2 : TASK 1</h1>
+    <input type="button" value="green" id="greenbtn">
+    <input type="button" value="red" id="redbtn">
+    <input type="button" value="blue" id="bluebtn">
+    <h1>TASK 2</h1>
+    <p id="animation"></p>
+    <input type="text" name="input" id="input">
+
+    <h1>Create delete Elements</h1>
+    <ul id="list">
+
+    </ul>
+
+    <ul id="list2">
+
+    </ul>
+
+    <button id="btn-add">Add</button>
+
+
+    <div id="hoverBox">Hover Over Me</div>
+
+    <style>
+        #hoverBox {
+            width: 200px;
+            height: 100px;
+            background: lightgray;
+            text-align: center;
+            line-height: 100px;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        .highlight {
+            background: yellow;
+            font-weight: bold;
+        }
+    </style>
+
+    <script>
+        const box = document.getElementById("hoverBox");
+
+        box.addEventListener("mouseenter", () => {
+            box.classList.add("highlight");  // Add yellow color
+        });
+
+        box.addEventListener("mouseleave", () => {
+            box.classList.remove("highlight"); // Remove yellow color
+        });
+    </script>
+
+</body>
+<footer>
+    <script src="Dom.js"></script>
+</footer>
+
+</html>
